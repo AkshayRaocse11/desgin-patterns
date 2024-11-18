@@ -4,9 +4,6 @@ This repository contains examples of commonly used design patterns in JavaScript
 
 ## Table of Contents
 - [Singleton Pattern](#singleton-pattern)
-- [How to Use](#how-to-use)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
