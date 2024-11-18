@@ -1,11 +1,19 @@
 let counter = 0;
-let instance;
+let instance = null;
 
 class Counter {
-    getInstance(){
+    constructor() {
         if (instance) {
-            throw new Error("Instance is already Running");
+            throw new Error("Instance is already running");
         }
+        instance = this;
+    }
+
+    static getInstance() {
+        if (!instance) {
+            instance = new Counter();
+        }
+        return instance;
     }
 
     getCounter(){
