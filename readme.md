@@ -10,7 +10,7 @@ This repository contains examples of commonly used design patterns in JavaScript
 
 ---
 
-## Singleton Pattern
+## Singleton Pattern - 🔗 **Reference:** [Singleton Pattern Code](singletonPattern/counter.js)
 The Singleton pattern restricts the instantiation of a class to a single instance. It is useful when exactly one object is needed to coordinate actions across a system.
 
 ### Advantages
@@ -23,9 +23,6 @@ The Singleton pattern restricts the instantiation of a class to a single instanc
 - **Testing Challenges**: Singleton classes can complicate unit testing, as it may be difficult to mock or reset their state.
 - **Potential for Unwanted Global State**: Misuse of Singletons can lead to problems related to global state management and unpredictable behavior in larger systems.
 - **Concurrency Issues**: In a multi-threaded environment, careful implementation is required to avoid synchronization problems.
-
-
-🔗 **Reference:** [Singleton Pattern Code](singletonPattern/counter.js)
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
