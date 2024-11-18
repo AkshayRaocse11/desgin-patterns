@@ -29,8 +29,8 @@ class Counter {
     }
 }
 
-let counterInstance = new Counter();
-let counterInstance2 = new Counter();
+let counterInstance = Counter.getInstance();
+let counterInstance2 = Counter.getInstance();
 counterInstance.incrementCounter();
 counterInstance.incrementCounter();
 console.log(counterInstance2.getCounter());
