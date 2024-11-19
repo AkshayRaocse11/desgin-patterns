@@ -30,15 +30,16 @@ Generally speaking, a proxy means a stand-in for someone else. Instead of speaki
 Proxies are a powerful way to add control over the behavior of an object. A proxy can have various use-cases: it can help with validation, formatting, notifications, or debugging.
 Overusing the Proxy object or performing heavy operations on each handler method invocation can easily affect the performance of your application negatively. It’s best to not use proxies for performance-critical code.
 
-**Advantages**:
-    Access Control: Enables fine-grained access control to sensitive resources by checking user roles before performing operations.
-    Decoupling: Separates the access control logic from the real object, simplifying the management of permissions.
-    Security: Helps to secure critical operations by preventing unauthorized access based on roles or permissions.
-    Centralized Authorization: With the Proxy, authorization logic can be centralized, making it easier to manage and update.
-**Disadvantages**:
-    Performance Overhead: Introducing a proxy adds an additional layer of abstraction, which can increase the time it takes to perform the actual operation.
-    Complexity: In some cases, proxies can increase the complexity of the codebase, especially if the proxy logic becomes too intricate.
-    Potential for Misuse: If not properly implemented, proxies may lead to over-complication in scenarios where access control is not necessary.
+### Advantages:
+- **Access Control**: Manages access to sensitive resources based on user roles.
+- **Decoupling**: Separates access control from the actual object, making permission management easier.
+- **Security**: Protects critical operations by preventing unauthorized access.
+- **Centralized Authorization**: Keeps authorization logic in one place, making it easier to manage.
+
+### Disadvantages:
+- **Performance Overhead**: Adds extra layers that may slow down operations.
+- **Complexity**: Can complicate the code if the proxy logic becomes too complex.
+- **Misuse**: May lead to unnecessary complexity if access control isn’t needed.
 
 
 ## License
