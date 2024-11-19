@@ -34,4 +34,11 @@ personProxy.name;
 
 personProxy.number;
 
-
+//output
+// Employee name of Akshay
+// Age should be a number. given value is test
+// Employee Details are incorrect, not accessible
+// You need to provide a valid name.
+// Employee name of oldValue is Akshay and newValue is Rahul
+// Employee name of Rahul
+// Employee Details are incorrect, not accessible

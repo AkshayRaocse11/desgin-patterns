@@ -70,3 +70,13 @@ adminFileProxy.read();
 //The proxy controls access to the real object by acting as an intermediary. 
 //The proxy can add additional behavior before or after delegating the task to the real object. It can be used for various purposes, such as lazy initialization, logging, access control, and caching.
 
+//output
+// Checking read permissions for role: Admin
+// Reading the content: Learning Css Hard ways, of this file documentFile.txt
+// Checking update permissions for role: Admin
+// Learning Html Course: Updated Content
+// Checking update permissions for role: learner
+// Access Denied for updating and userRole is : learner
+// Checking read permissions for role: learner
+// Reading the content: Learning Html Course, of this file documentFile.txt
+// Checking update permissions for role: Editor
