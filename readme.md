@@ -7,7 +7,6 @@ This repository contains examples of commonly used design patterns in JavaScript
 - [Proxy Pattern](#proxy-pattern)
 
 ---
-
 ## Singleton Pattern - 🔗 **Reference:** [Singleton Pattern Code](singletonPattern/counter.js)
 The Singleton pattern restricts the instantiation of a class to a single instance. It is useful when exactly one object is needed to coordinate actions across a system.
 
