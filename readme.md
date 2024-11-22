@@ -5,6 +5,7 @@ This repository contains examples of commonly used design patterns in JavaScript
 ## Table of Contents
 - [Singleton Pattern](#singleton-pattern)
 - [Proxy Pattern](#proxy-pattern)
+- [Factory Pattern](#factory-pattern)
 
 ---
 ## Singleton Pattern - 🔗 **Reference:** [Singleton Pattern Code](singletonPattern/counter.js)
