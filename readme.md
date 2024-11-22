@@ -41,7 +41,7 @@ Overusing the Proxy object or performing heavy operations on each handler method
 - **Complexity**: Can complicate the code if the proxy logic becomes too complex.
 - **Misuse**: May lead to unnecessary complexity if access control isn’t needed.
 
-## **Factory Design Pattern**
+## **Factory Design Pattern**  **Reference:** [Factory Design Pattern](/factoryPattern/notificationSystemFactory.js)
 
 ### **Definition**  
 The **Factory Pattern** is a **creational design pattern** that provides an interface or method to create objects without exposing the creation logic to the client. Instead of using the `new` keyword to create an object, the Factory Pattern delegates the instantiation responsibility to a special method (factory method), making the code more flexible and maintainable.  
