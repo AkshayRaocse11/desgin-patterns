@@ -41,6 +41,55 @@ Overusing the Proxy object or performing heavy operations on each handler method
 - **Complexity**: Can complicate the code if the proxy logic becomes too complex.
 - **Misuse**: May lead to unnecessary complexity if access control isn’t needed.
 
+## **Factory Design Pattern**
+
+### **Definition**  
+The **Factory Pattern** is a **creational design pattern** that provides an interface or method to create objects without exposing the creation logic to the client. Instead of using the `new` keyword to create an object, the Factory Pattern delegates the instantiation responsibility to a special method (factory method), making the code more flexible and maintainable.  
+
+---
+
+### **In Simple Terms**  
+- Imagine a **pizza restaurant**: you order a pizza (like Margherita or Pepperoni) without worrying about how it's made. The restaurant's kitchen is like the factory, creating the pizza for you.  
+- Similarly, in the Factory Pattern, you ask the factory for an object (like a car or a notification system), and it gives you the right one without needing to know the exact details of how it was created.  
+
+---
+
+### **Key Points to Remember**  
+1. **Purpose**: To centralize object creation logic and decouple it from the rest of the application.  
+2. **Avoid Hard-Coding**: The pattern reduces the use of `new` and avoids tightly coupling the client code to specific classes.  
+3. **Dynamic Behavior**: It allows the creation of objects based on some input or logic without the client knowing the specifics.  
+4. **Example Use Case**: Creating different notification types (Email, SMS, Push) through a single factory method.  
+
+---
+
+### **Advantages**  
+1. **Encapsulation of Creation Logic**: The object creation code is centralized in one place, making it easier to manage.  
+2. **Flexibility**: New types of objects can be added without changing the client code.  
+3. **Loose Coupling**: The client code depends on an abstract interface or factory, not concrete classes.  
+4. **Improved Maintainability**: Centralizing object creation makes the code easier to debug, test, and modify.  
+
+---
+
+### **Disadvantages**  
+1. **Complexity**: Can introduce additional layers of abstraction, making the code harder to follow for small projects.  
+2. **Overhead**: For simple object creation, using the Factory Pattern might be overkill.  
+3. **Tight Coupling with Factory**: While it decouples the client from specific classes, it introduces a dependency on the factory itself.  
+
+---
+
+### **When to Use the Factory Pattern**  
+1. You need to create objects without specifying their exact class.  
+2. The exact type of the object may depend on some dynamic input (e.g., user input or configuration).  
+3. Adding new types of objects should be easy without modifying existing client code.  
+
+---
+
+### **Quick Summary**  
+- The Factory Pattern is about **creating objects** without directly instantiating them using the `new` keyword.  
+- It focuses on **decoupling the client code** from the object creation logic, improving maintainability and flexibility.  
+- Best used when the type of object to be created can vary or needs to be determined dynamically.  
+
+
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
